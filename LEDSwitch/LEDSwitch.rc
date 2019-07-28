@@ -1,0 +1,222 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Slovenian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_SLV)
+#ifdef _WIN32
+LANGUAGE LANG_SLOVENIAN, SUBLANG_DEFAULT
+#pragma code_page(1250)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_SLV)\r\n"
+    "LANGUAGE 36, 1\r\n"
+    "#pragma code_page(1250)\r\n"
+    "#include ""res\\LEDSwitch.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\LEDSwitch.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 204, 49
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About LEDSwitch"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,21,20
+    LTEXT           "LEDSwitch Version 1.10",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2010 - Keil, an ARM Company",IDC_STATIC,40,25,150,8
+    DEFPUSHBUTTON   "OK",IDOK,147,7,50,16,WS_GROUP
+END
+
+IDD_LEDSWITCH_DIALOG DIALOGEX 0, 0, 125, 113
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "LEDSwitch"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,42,96,36,13,NOT WS_VISIBLE
+    PUSHBUTTON      "Cancel",IDCANCEL,3,96,36,13,NOT WS_VISIBLE
+    GROUPBOX        "Board IP",IDC_STATIC,3,42,118,30
+    GROUPBOX        "TCP/UDP Port",IDC_STATIC,56,3,65,37
+    GROUPBOX        "Protocol",IDC_STATIC,3,3,48,37
+    GROUPBOX        "Outputs [LEDs]",IDC_STATIC,3,73,118,35
+    CONTROL         "",IDC_TARGETIP,"SysIPAddress32",WS_TABSTOP,11,53,100,12
+    EDITTEXT        IDC_PORT,68,18,40,12,ES_AUTOHSCROLL
+    CONTROL         "TCP",IDC_TCP,"Button",BS_AUTORADIOBUTTON,11,14,29,10
+    CONTROL         "UDP",IDC_UDP,"Button",BS_AUTORADIOBUTTON,11,27,29,10
+    CONTROL         "",IDC_OUT7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,39,94,8,10
+    EDITTEXT        IDC_OUT,9,90,25,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_OUT6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,49,94,8,10
+    CONTROL         "",IDC_OUT5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,59,94,8,10
+    CONTROL         "",IDC_OUT4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,69,94,8,10
+    CONTROL         "",IDC_OUT3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,79,94,8,10
+    CONTROL         "",IDC_OUT2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,89,94,8,10
+    CONTROL         "",IDC_OUT1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,99,94,8,10
+    CONTROL         "",IDC_OUT0,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,109,94,8,10
+    LTEXT           "0",IDC_STATIC,111,84,8,8
+    LTEXT           "7",IDC_STATIC,42,84,8,8
+    LTEXT           "6",IDC_STATIC,51,84,8,8
+    LTEXT           "5",IDC_STATIC,61,84,8,8
+    LTEXT           "4",IDC_STATIC,71,84,8,8
+    LTEXT           "3",IDC_STATIC,81,84,8,8
+    LTEXT           "2",IDC_STATIC,91,84,8,8
+    LTEXT           "1",IDC_STATIC,101,84,8,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "TODO: <File description>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "LEDSwitch.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "LEDSwitch.exe"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 197
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 42
+    END
+
+    IDD_LEDSWITCH_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 121
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 109
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About LEDSwitch..."
+    IDP_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+END
+
+#endif    // Slovenian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_SLV)
+LANGUAGE 36, 1
+#pragma code_page(1250)
+#include "res\LEDSwitch.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
