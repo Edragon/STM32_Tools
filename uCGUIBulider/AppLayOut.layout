@@ -2,7 +2,7 @@
   <docksite size="0" dockingside="Top" originaldocksitesize="0" />
   <docksite size="123" dockingside="Bottom" originaldocksitesize="0">
     <dockcontainer orientation="1" w="0" h="0">
-      <barcontainer w="583" h="120">
+      <barcontainer w="585" h="120">
         <bar name="OutPutBar" dockline="0" layout="2" dockoffset="0" state="2" dockside="4" fpos="634,390,128,128" visible="true">
           <items>
             <item name="dockContainerItem5" origBar="" origPos="-1" pos="0" />
@@ -13,7 +13,7 @@
   </docksite>
   <docksite size="215" dockingside="Left" originaldocksitesize="0">
     <dockcontainer orientation="0" w="0" h="0">
-      <barcontainer w="212" h="511">
+      <barcontainer w="212" h="526">
         <bar name="ToolBoxBar" dockline="0" layout="2" dockoffset="0" state="2" dockside="1" visible="true">
           <items>
             <item name="dockContainerItem1" origBar="" origPos="-1" pos="0" />
@@ -24,14 +24,14 @@
   </docksite>
   <docksite size="208" dockingside="Right" originaldocksitesize="0">
     <dockcontainer orientation="1" w="0" h="0">
-      <barcontainer w="205" h="102">
+      <barcontainer w="205" h="104">
         <bar name="ExplorerBar" dockline="0" layout="2" dockoffset="0" state="2" dockside="2" visible="true">
           <items>
             <item name="dockContainerItem4" origBar="" origPos="-1" pos="0" />
           </items>
         </bar>
       </barcontainer>
-      <barcontainer w="205" h="406">
+      <barcontainer w="205" h="419">
         <bar name="PropertyBar" dockline="0" layout="2" dockoffset="197" state="2" dockside="2" visible="true">
           <items>
             <item name="dockContainerItem2" origBar="" origPos="-1" pos="0" />
